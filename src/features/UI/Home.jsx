@@ -2,9 +2,10 @@ function Home() {
   return (
     <div>
       <h1>
-        The best pizza.
+        The HOMEPAGE pizza.
         <br />
-        Straight out of the oven, straight to you.
+        home page home page 
+        home page home page 
       </h1>
     </div>
   );
