@@ -1,13 +1,16 @@
+
 function Home() {
   return (
     <div>
       <h1>
-        The best pizza.
+        HOMEPAGE
         <br />
-        Straight out of the oven, straight to you.
+        Home home home home home
       </h1>
+
     </div>
   );
 }
+
 
 export default Home;

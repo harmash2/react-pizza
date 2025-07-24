@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 function CartOverview() {
   return (
-    <div>
+    <div style={{borderTop: 'solid 2px tomato'}}>
       <p>
-        <span>23 pizzas</span>
+        <span>CartOverview</span>
         <span>$23.45</span>
       </p>
-      <a href="#">Open cart &rarr;</a>
+      <Link to="/cart">Open cart &rarr;</Link>
     </div>
   );
 }
